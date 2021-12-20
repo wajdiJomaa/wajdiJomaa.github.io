@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>wajdiJomaa</title>
-    <link>https://wajdiJomaa.com/</link>
+    <link>/</link>
     <description>Recent content on wajdiJomaa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://wajdiJomaa.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>folderOrganizer</title>
-      <link>https://wajdiJomaa.com/posts/2020/12/folderorganizer/</link>
+      <link>/posts/2020/12/folderorganizer/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://wajdiJomaa.com/posts/2020/12/folderorganizer/</guid>
+      <guid>/posts/2020/12/folderorganizer/</guid>
       <description>What is folder Organizer The folder Organizer is a simple program built with C and some bash commands, by executing it inside a directory it will group the files sharing the same extension together in sub-directories.
 THE CODE system Before we start, you should know what the system function is in C, the system function takes a command, im my case on &amp;ldquo;UBUNUTU&amp;rdquo; it&amp;rsquo;s a bash command, and execute it. For example system(&amp;ldquo;mkdir /home/example/games&amp;rdquo;), creates a games directory in /home/example.</description>
     </item>
     
     <item>
       <title>Programming Languages Part A</title>
-      <link>https://wajdiJomaa.com/posts/2020/12/programming-languages-part-a/</link>
+      <link>/posts/2020/12/programming-languages-part-a/</link>
       <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://wajdiJomaa.com/posts/2020/12/programming-languages-part-a/</guid>
+      <guid>/posts/2020/12/programming-languages-part-a/</guid>
       <description>Introduction About the blog Hi there, in this blog I will talk about a course called &amp;ldquo;Programming Languages Part A&amp;rdquo;, the course has the purpose of teaching you the most relevant ideas of functional programming, we will use a language called &amp;ldquo;SML&amp;rdquo;, it&amp;rsquo;s a very simple language and will let us focus on the concepts of functional programming. But I won&amp;rsquo;t talk about everything in the course and every topic that the course covers, I will share with you the parts that are the most important and specific to functional programming.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://wajdiJomaa.com/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wajdiJomaa.com/about/</guid>
+      <guid>/about/</guid>
       <description>Hi there, i&amp;rsquo;m wajdi a computer science student at the Lebanese University, i have a basic knowledge about programming concepts and some programming languages and i try to learn more by enrolling in great online courses like cs50. </description>
     </item>
     
