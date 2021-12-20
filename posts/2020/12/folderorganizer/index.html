@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Wajdi Jomaa ">
+<meta name="description" content="What is folder Organizer The folder Organizer is a simple program built with C and some bash commands, by executing it inside a directory it will group the files sharing the same extension together in sub-directories.
+THE CODE system Before we start, you should know what the system function is in C, the system function takes a command, im my case on &amp;ldquo;UBUNUTU&amp;rdquo; it&amp;rsquo;s a bash command, and execute it. For example system(&amp;ldquo;mkdir /home/example/games&amp;rdquo;), creates a games directory in /home/example." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://wajdiJomaa.com/posts/2020/12/folderorganizer/" />
+
+
+    <title>
+        
+            folderOrganizer :: wajdiJomaa  — Hello Friend NG Theme
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://wajdiJomaa.com/main.17863a81d979b637a02cd7632a4d86e9d80563ef460fd6af1a56962efcaa066b.css">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://wajdiJomaa.com/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://wajdiJomaa.com/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://wajdiJomaa.com/favicon-16x16.png">
+    <link rel="manifest" href="https://wajdiJomaa.com/site.webmanifest">
+    <link rel="mask-icon" href="https://wajdiJomaa.com/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="https://wajdiJomaa.com/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+    <meta name="theme-color" content="">
+
+
+
+<meta itemprop="name" content="folderOrganizer">
+<meta itemprop="description" content="What is folder Organizer The folder Organizer is a simple program built with C and some bash commands, by executing it inside a directory it will group the files sharing the same extension together in sub-directories.
+THE CODE system Before we start, you should know what the system function is in C, the system function takes a command, im my case on &ldquo;UBUNUTU&rdquo; it&rsquo;s a bash command, and execute it. For example system(&ldquo;mkdir /home/example/games&rdquo;), creates a games directory in /home/example.">
+<meta itemprop="datePublished" content="2020-12-18T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-12-18T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="513">
+<meta itemprop="image" content="https://wajdiJomaa.com"/>
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://wajdiJomaa.com"/>
+
+<meta name="twitter:title" content="folderOrganizer"/>
+<meta name="twitter:description" content="What is folder Organizer The folder Organizer is a simple program built with C and some bash commands, by executing it inside a directory it will group the files sharing the same extension together in sub-directories.
+THE CODE system Before we start, you should know what the system function is in C, the system function takes a command, im my case on &ldquo;UBUNUTU&rdquo; it&rsquo;s a bash command, and execute it. For example system(&ldquo;mkdir /home/example/games&rdquo;), creates a games directory in /home/example."/>
+
+
+
+
+    <meta property="og:title" content="folderOrganizer" />
+<meta property="og:description" content="What is folder Organizer The folder Organizer is a simple program built with C and some bash commands, by executing it inside a directory it will group the files sharing the same extension together in sub-directories.
+THE CODE system Before we start, you should know what the system function is in C, the system function takes a command, im my case on &ldquo;UBUNUTU&rdquo; it&rsquo;s a bash command, and execute it. For example system(&ldquo;mkdir /home/example/games&rdquo;), creates a games directory in /home/example." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://wajdiJomaa.com/posts/2020/12/folderorganizer/" />
+<meta property="og:image" content="https://wajdiJomaa.com"/>
+<meta property="article:published_time" content="2020-12-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-12-18T00:00:00+00:00" />
+
+
+
+
+
+
+    <meta property="article:published_time" content="2020-12-18 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://wajdiJomaa.com/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">&gt;</span>
+            <span class="logo__text">$ cd /home/wajdi</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://wajdiJomaa.com/about/">About</a></li><li><a href="https://wajdiJomaa.com/posts/">Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+                <span class="theme-toggle not-selectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+   <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+   3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+   13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+ </svg></span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://wajdiJomaa.com/posts/2020/12/folderorganizer/">folderOrganizer</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <h2 id="what-is-folder-organizer">What is folder Organizer</h2>
+<p>The folder Organizer is a simple program built with C and some bash commands, by executing it inside a directory it will group the files sharing the same extension together in sub-directories.</p>
+<h2 id="the-code">THE CODE</h2>
+<h3 id="system">system</h3>
+<p>Before we start, you should know what the <code>system</code> function is in C, the system function takes a command, im my case on &ldquo;UBUNUTU&rdquo; it&rsquo;s a bash command, and execute it. For example system(&ldquo;mkdir /home/example/games&rdquo;), creates a games directory in /home/example.</p>
+<h3 id="generating-a-list-of-file-names">generating a list of file names</h3>
+<p>The first step is generating a file containing a list of file names, but before this some files may have space in their names, and we don&rsquo;t want this to make problems,
+so I found on stackoverflow a bash command to rename these files, and replace spaces with underscores &ldquo;_&quot;,<code>&quot;find . -type f -name \&quot;* *\&quot; -exec bash -c 'mv \&quot;$0\&quot; \&quot;${0// /_}\&quot;' {} \\;&quot;</code>. Now we can generate the file using the command <code>ls &gt; systemm</code>, ls will list all files in current directory and &gt; will redirect it to a file called systemm.</p>
+<p>note : all commands use a relative path to the directory of the program.</p>
+<h3 id="one-more-problem-before-moving-files">One more problem before moving files</h3>
+<p>A directory may contain  subdirecories, so our file may contains name of other directories, so with the command <code>[-d name]</code> we can check for directories, this command returns 0 if the current name represents a directory, and 1 for files.</p>
+<p>Another issues is that some files may have special characters, like &ldquo;(&quot;, &ldquo;)&rdquo; , &ldquo;,&rdquo; etc&hellip;
+and when executing a command like <code>mv</code> on these files we should use <code>mv ex\,ample</code>
+istead of <code>mv ex,ample</code>, so I created a simple function to add \ before these special characters to all filenames in the generated file.</p>
+<h3 id="getting-extensions">Getting extensions</h3>
+<p>The last thing before we start is defining a function to get the extension of a file,
+for this i found a function on internet that takes a filename and returns it&rsquo;s extension
+`char * extension(char *filename)</p>
+<h3 id="organizing-and-moving-files">organizing and moving files</h3>
+<p>Now we can start moving files, we can open the file systemm containing the list of filenames using <code>fopen</code>, and do the following steps :</p>
+<ol>
+<li>read a filename from the file using <code>fscanf</code>.</li>
+<li>check if it represents a directory.</li>
+<li>if not execute the function <code>slash_before_special_characters</code> on the file.</li>
+<li>get the extension of the file.</li>
+<li>check if the extension of file is not empty (some files has no extensions)</li>
+<li>if it&rsquo;s not empty then move the file to a sufolder with the name of this extension, create this folder if it didn&rsquo;t exist. We can check for existence using ls.</li>
+<li>if the file name is &ldquo;systemm&rdquo; or &ldquo;organize&rdquo; don&rsquo;t do anything, we don&rsquo;t want to move the file containing the list of file names and the program itself. It&rsquo;s safe to put this step in an else because these files has no extensions.</li>
+<li>for other files without extensions move them to a folder called &ldquo;no_ext&rdquo;</li>
+<li>repeat all steps until you finish.</li>
+</ol>
+<h2 id="finally">Finally&hellip;</h2>
+<p>I hope that I explained clearly how my code works.</p>
+<h2 id="wajdi18-dec-2021">wajdi,18 Dec 2021</h2>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+            
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            <span><a href="https://wajdiJomaa.com">Wajdi Jomaa</a></span>
+            
+            
+            
+        </div>
+    </div>
+    
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+        </div>
+    </div>
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://wajdiJomaa.com/bundle.min.ace63d93098bf623f7c286a9084a4c22bfc482944c734f87fe0b685c7c6c7fa0ad2edb028c3b4b60d3343720c8ab490b320ad7f8edf4f6e9a6b898fc529057a9.js" integrity="sha512-rOY9kwmL9iP3woapCEpMIr/EgpRMc0&#43;H/gtoXHxsf6CtLtsCjDtLYNM0NyDIq0kLMgrX&#43;O309ummuJj8UpBXqQ=="></script>
+
+
+
+    </body>
+</html>

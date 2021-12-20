@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Wajdi Jomaa ">
+<meta name="description" content="Introduction About the blog Hi there, in this blog I will talk about a course called &amp;ldquo;Programming Languages Part A&amp;rdquo;, the course has the purpose of teaching you the most relevant ideas of functional programming, we will use a language called &amp;ldquo;SML&amp;rdquo;, it&amp;rsquo;s a very simple language and will let us focus on the concepts of functional programming. But I won&amp;rsquo;t talk about everything in the course and every topic that the course covers, I will share with you the parts that are the most important and specific to functional programming." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://wajdiJomaa.com/posts/2020/12/programming-languages-part-a/" />
+
+
+    <title>
+        
+            Programming Languages Part A :: wajdiJomaa  — Hello Friend NG Theme
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://wajdiJomaa.com/main.17863a81d979b637a02cd7632a4d86e9d80563ef460fd6af1a56962efcaa066b.css">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://wajdiJomaa.com/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://wajdiJomaa.com/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://wajdiJomaa.com/favicon-16x16.png">
+    <link rel="manifest" href="https://wajdiJomaa.com/site.webmanifest">
+    <link rel="mask-icon" href="https://wajdiJomaa.com/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="https://wajdiJomaa.com/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+    <meta name="theme-color" content="">
+
+
+
+<meta itemprop="name" content="Programming Languages Part A">
+<meta itemprop="description" content="Introduction About the blog Hi there, in this blog I will talk about a course called &ldquo;Programming Languages Part A&rdquo;, the course has the purpose of teaching you the most relevant ideas of functional programming, we will use a language called &ldquo;SML&rdquo;, it&rsquo;s a very simple language and will let us focus on the concepts of functional programming. But I won&rsquo;t talk about everything in the course and every topic that the course covers, I will share with you the parts that are the most important and specific to functional programming.">
+<meta itemprop="datePublished" content="2020-12-09T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-12-09T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1699">
+<meta itemprop="image" content="https://wajdiJomaa.com"/>
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://wajdiJomaa.com"/>
+
+<meta name="twitter:title" content="Programming Languages Part A"/>
+<meta name="twitter:description" content="Introduction About the blog Hi there, in this blog I will talk about a course called &ldquo;Programming Languages Part A&rdquo;, the course has the purpose of teaching you the most relevant ideas of functional programming, we will use a language called &ldquo;SML&rdquo;, it&rsquo;s a very simple language and will let us focus on the concepts of functional programming. But I won&rsquo;t talk about everything in the course and every topic that the course covers, I will share with you the parts that are the most important and specific to functional programming."/>
+
+
+
+
+    <meta property="og:title" content="Programming Languages Part A" />
+<meta property="og:description" content="Introduction About the blog Hi there, in this blog I will talk about a course called &ldquo;Programming Languages Part A&rdquo;, the course has the purpose of teaching you the most relevant ideas of functional programming, we will use a language called &ldquo;SML&rdquo;, it&rsquo;s a very simple language and will let us focus on the concepts of functional programming. But I won&rsquo;t talk about everything in the course and every topic that the course covers, I will share with you the parts that are the most important and specific to functional programming." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://wajdiJomaa.com/posts/2020/12/programming-languages-part-a/" />
+<meta property="og:image" content="https://wajdiJomaa.com"/>
+<meta property="article:published_time" content="2020-12-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-12-09T00:00:00+00:00" />
+
+
+
+
+
+
+    <meta property="article:published_time" content="2020-12-09 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://wajdiJomaa.com/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">&gt;</span>
+            <span class="logo__text">$ cd /home/wajdi</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://wajdiJomaa.com/about/">About</a></li><li><a href="https://wajdiJomaa.com/posts/">Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+                <span class="theme-toggle not-selectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+   <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+   3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+   13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+ </svg></span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://wajdiJomaa.com/posts/2020/12/programming-languages-part-a/">Programming Languages Part A</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <h2 id="introduction">Introduction</h2>
+<h3 id="about-the-blog">About the blog</h3>
+<p>Hi there, in this blog I will talk about a course called &ldquo;Programming Languages Part A&rdquo;,
+the course has the purpose of teaching you the most relevant ideas of functional programming, we will use a language called &ldquo;SML&rdquo;, it&rsquo;s a very simple language and will let us focus on the concepts of functional programming. But I won&rsquo;t talk about everything in the course and every topic that the course covers, I will share with you the parts that are the most important and specific to functional programming.</p>
+<h3 id="about-the-course">About the course</h3>
+<p>As the name tells this course has 2 other parts &ldquo;B&rdquo; and &ldquo;c&rdquo;, the main idea of the course is simply<br>
+not learning new programming languages but learning some important programming concepts.
+This course is available for free on Coursera.</p>
+<h2 id="the-course-briefly">The Course briefly</h2>
+<p>This course has 5 weeks, or maybe 4 because the first one is a simple introduction with optional fake homework. In the following sections, I will talk about the important ideas in each week.</p>
+<h3 id="the-second-week">The second week</h3>
+<h4 id="defining-expressions">Defining expressions</h4>
+<p>First, we&rsquo;ll start talking about ML expressions and variable-bindings, when we want to define an expression in any programming language we have to ask 3 fundamental questions :</p>
+<ol>
+<li>what is the syntax?</li>
+<li>what are the type checking rules?</li>
+<li>what is the evaluation of this expression?</li>
+</ol>
+<p>for example the adding expression :</p>
+<ol>
+<li>syntax: <code>e1 + e2</code>.</li>
+<li>type check: e1 and e2 should both be expressions that have an integer type or it will not type check.</li>
+<li>evaluation: evaluates e1 to v1 and e2 to v2 then returns the sum of v1 and v2.</li>
+</ol>
+<h4 id="no-mutation">no mutation</h4>
+<p>In SML the variables are not mutable, there is a way to define mutable variables using records but all other variables are not. With this approach, we don&rsquo;t have to worry about mutations
+which can cause a lot of problems especially when passing arguments and returning from functions.</p>
+<h4 id="recursion-everywhere">Recursion everywhere</h4>
+<p>In imperative programming everyone use <code>for</code> and <code>while</code> loops, but this is not the case for functional programming
+where you have to use recursion and only recursion and the reason is the lack of mutation. I will put a simple example of adding all the elements of a list.
+<code>fun add ls = if null ls then 0 else hd ls + add tl ls</code>  the <code>hd</code> function is function that returns the first element of a list, the <code>tl</code> returns the list without first element and <code>null ls</code> return true if the list is empty. It was very funny to work with this type of recursion a style that you will never see in imperative programming.</p>
+<h4 id="local-bindings">local bindings</h4>
+<p>Another feature that I find very important is the <code>let</code> expression which let us define local variables which are only available in the body of the let expression <code>let val x = 1 in x + 1 end </code>.</p>
+<h3 id="the-third-week">The third week</h3>
+<h4 id="syntactic-sugar">Syntactic sugar</h4>
+<p>The first time I heard of this expression was in this course, all programming languages do a lot of syntactic sugars and we don&rsquo;t notice this, in SML there is a type called records that could be defined like this
+<code>val rec ={a=1,b=2}</code> and you can access an item by using <code>#a rec</code>, and it seems that there is another type called tuple
+<code>val tup = (1,2)</code> and you can access an item by using <code>#1</code> or <code>#2</code> but the truth is that this tuple is a record like this <code>val tup = {1=1,2=2}</code> but the syntax is so ugly so the programmers of the language decided to implement tuples as syntactic sugar.</p>
+<h4 id="compound-types">Compound Types</h4>
+<p>Compound types are types that have other types in their definition and we have 3 different types of them :</p>
+<ol>
+<li>&ldquo;Each of&rdquo;: A compound type that contains each of values of types t1 and t2 and &hellip; like records and tuples.</li>
+<li>&ldquo;One of&rdquo;: A compound type that contains one of the values of types t1 or t2 or &hellip;</li>
+<li>&ldquo;Self-reference&rdquo;: A compound type that can refer to itself in its definition for example list of integers is an
+Integer with another list.</li>
+</ol>
+<h4 id="datatypes">Datatypes</h4>
+<p>In SML you can define your own &ldquo;One of&rdquo; datatype by using <code>datatype card = Number of int |  Diamond | ... </code>
+and what is exciting about these data types is that they could be recursive by definition.</p>
+<h4 id="pattern-matching">Pattern matching</h4>
+<p>When I first see the pattern matching I was impressed, and I thought that why not just every programming language has this idea. A pattern is like <code>[]</code> that matches an empty list and <code>x::xs</code> x matched the first element of a list and xs is the part of the list without the head. If we implement the example above of adding elements in the list it will be like: <code>fun add ls = case ls of [] =&gt; 0 | x::xs =&gt; x + add xs </code> you see no need to if-else no need to hd tl null a simple and beautiful syntax, and it becomes really helpful with datatypes that we talk about above for example
+<code>fun example c = case c of  Number x =&gt; x+1 | Diamond =&gt; ...</code>.</p>
+<h4 id="tail-recursion">Tail recursion</h4>
+<p>When we talk about recursive functions we talk about the stack, every time we call a function we will push it to the part of the memory called stack, so sometimes if a recursive function has a lot of calls we will run out of space, but with tail recursion, we don&rsquo;t have to worry about this.</p>
+<p><code>example n = n*example n-1</code> and <code>examp n = examp n-1</code> The difference between these two examples is that in the first one after calling the function <code>example n-1</code> we have to multiply the result by n, while in the second example the function <code>example n</code> return the same result as <code>example n-1</code> and this is a tail case, we don&rsquo;t have to do any calculation after calling <code>example n-1</code>, so when we call it we can remove <code>example n</code> from the stack because it has no more calculation, the SML language can detect the tail recursion case and this is very elegant.</p>
+<h3 id="the-4th-week">The 4th week</h3>
+<p>The main ideas of this week are closures, passing functions to other functions, and returning functions.</p>
+<h4 id="what-is-a-closure">What is a closure</h4>
+<p>A closure is a function with the environment where this function is defined for example
+<code>val x = 2 ; fun double y = y*x </code>  in the function double the value of x is always 2 event when we pass the function
+to other functions, so we don&rsquo;t just pass the function we always pass its environment.</p>
+<h4 id="map-function">map function</h4>
+<p>One of the most popular functions in functional programming is the map function, the map function takes another function f and a list l and returns the list of {f(x)} where x is an element of l.</p>
+<h4 id="anonymous-functions-and-syntactic-sugar">Anonymous functions and syntactic sugar</h4>
+<p>SML lets us define anonymous functions, this is very useful when we want to pass a function as an argument, and we don&rsquo;t want to use it anywhere else. for example, we have a function <code>fun example f = ....</code> that takes another function.
+So while calling it we can use <code>example (fn x=&gt; x*2)</code>.</p>
+<p>Also all funtions are syntactic sugar of anonymus functions <code>fun f x = x*2</code> is syntactic sugar of
+<code>val f = fn x =&gt; x*2</code>.</p>
+<h4 id="filter-function">filter function</h4>
+<p>As the name tells, the filter function takes a function f and a list l and returns a list of elements of l that evaluates to true with f(x). note: the function f should return always a bool.</p>
+<h4 id="fold-function">fold function</h4>
+<p>the function fold takes 3 arguments a function f an accumulator acc and a list l, it will apply the function f on every element of l and every call will affect the accumulator, at the end, the function will return the accumulator.</p>
+<h4 id="currying">Currying</h4>
+<p>The common way to pass arguments to a function is using a tuple <code>fun example (x,y) = x*y</code>, but with currying, we pass the arguments like this <code>fun example x = fn y =&gt; x*y</code>, the function example takes an argument x, and returns another function that takes y, and returns x*y <code>fun 8 10</code>. Some languages can use currying better than tuples and also currying allows us to do the partial application.</p>
+<h4 id="partial-application">Partial application</h4>
+<p>This idea is cool, if we want to define a function only_positive that takes a list and remove all negative numbers, well this looks like a filter, so we can define the function as following
+<code>val all_positive = filter (fn x =&gt; x &gt; 0)</code> now when we call the function with a list ls, it&rsquo;s like calling
+<code>filter (fn x=&gt; x &gt; 0) ls</code>. notice the filter function uses currying.</p>
+<h4 id="unecessary-wrapping">Unecessary wrapping</h4>
+<p>One of the simplest mistakes while programming is the unnecessary wrapping, for example,
+<code>fun all_positive ls = filter (fn x=&gt; x&gt;0) ls</code> the function here takes one argument a list ls and pass it directly to the function filter with the function that checks for positive numbers. But instead, we should define it as the example in the partial application section.</p>
+<h3 id="the-5th-week">The 5th week</h3>
+<p>In this week, the course talks about 2 main topics :</p>
+<ol>
+<li>
+<p>The first is about type inference and how a type checker determines the type of a variable for example <code>fun ex x = x*2</code> x should be an integer because we multiply it by 2.</p>
+</li>
+<li>
+<p>The second is about defining modules and restrictions on these modules using signatures.</p>
+</li>
+</ol>
+<h4 id="polymorphic-types">Polymorphic types</h4>
+<p>I should also mention the polymorphic types, for example, the following function that returns the length of a list, <code>fun ex ls = case ls of []=&gt;0 | _::xs=&gt; 1+ ex xs</code>, we don&rsquo;t do any calculation with list elements, notice I use _ here, so ls could be a list of anything, the type checker represent it as <code>'a list</code> alpha list.</p>
+<h2 id="finally">Finally&hellip;</h2>
+<p>Finally, I would say that this course taught me a lot of concepts, I encourage you to watch it, don&rsquo;t forget to do all your homework because it&rsquo;s the best way to practice new things, the course covers all the topics I mentioned in details and a lot of other topics.</p>
+<h6 id="wajdi-jomaa-9-dec-2021">Wajdi jomaa, 9 Dec 2021.</h6>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+            
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            <span><a href="https://wajdiJomaa.com">Wajdi Jomaa</a></span>
+            
+            
+            
+        </div>
+    </div>
+    
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+        </div>
+    </div>
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://wajdiJomaa.com/bundle.min.ace63d93098bf623f7c286a9084a4c22bfc482944c734f87fe0b685c7c6c7fa0ad2edb028c3b4b60d3343720c8ab490b320ad7f8edf4f6e9a6b898fc529057a9.js" integrity="sha512-rOY9kwmL9iP3woapCEpMIr/EgpRMc0&#43;H/gtoXHxsf6CtLtsCjDtLYNM0NyDIq0kLMgrX&#43;O309ummuJj8UpBXqQ=="></script>
+
+
+
+    </body>
+</html>
