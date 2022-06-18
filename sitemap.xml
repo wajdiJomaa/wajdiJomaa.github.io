@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts/2022/01/odin-project-foundation/</loc>
+    <loc>/posts/odinproject-foundation/</loc>
     <lastmod>2022-01-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -18,23 +18,18 @@
   </url>
   
   <url>
-    <loc>/posts/2021/12/folderorganizer/</loc>
+    <loc>/posts/folder_organizer/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2021/12/programming-languages-part-a/</loc>
+    <loc>/posts/programming_languages/</loc>
     <lastmod>2021-12-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/2021/11/cs50-review/</loc>
+    <loc>/posts/cs50/</loc>
     <lastmod>2021-11-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/about/</loc>
-    <priority>0</priority>
   </url>
   
   <url>

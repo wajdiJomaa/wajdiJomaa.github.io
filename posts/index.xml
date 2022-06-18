@@ -1,276 +1,50 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Posts on wajdiJomaa</title>
-        <link>/posts/</link>
-        <description>Recent content in Posts on wajdiJomaa</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Thu, 20 Jan 2022 00:00:00 +0000</lastBuildDate>
-        <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
-        
-        <item>
-            <title>Odin project foundation</title>
-            <link>/posts/2022/01/odin-project-foundation/</link>
-            <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
-            
-            <guid>/posts/2022/01/odin-project-foundation/</guid>
-            <description>Odin Project Foundation About the course Odin project Foundation is a completely free course, to learn the fundamentals of HTML, CSS, Javascript. For each topic, the course has different articles or youtube videos and sometimes some exercises and projects.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Wajdi Jomaa</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Wajdi Jomaa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Odin project foundation</title>
+      <link>/posts/odinproject-foundation/</link>
+      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/odinproject-foundation/</guid>
+      <description>Odin Project Foundation About the course Odin project Foundation is a completely free course, to learn the fundamentals of HTML, CSS, Javascript. For each topic, the course has different articles or youtube videos and sometimes some exercises and projects.
 The Introduction The course starts with some lessons about motivation, managing your time for example &amp;ldquo;Pomodoro&amp;rdquo;, and how to ask questions. also it makes sure you understand how the web works and the meaning of some words like the Internet, HTTP, Browser, Frontend, Website, Webpage&amp;hellip;</description>
-            <content type="html"><![CDATA[<h1 id="odin-project-foundation">Odin Project Foundation</h1>
-<h2 id="about-the-course">About the course</h2>
-<p>Odin project Foundation is a completely free course, to learn the fundamentals of HTML, CSS, Javascript.
-For each topic, the course has different articles or youtube videos and sometimes some exercises and
-projects.</p>
-<h2 id="the-introduction">The Introduction</h2>
-<p>The course starts with some lessons about motivation, managing your time for example &ldquo;Pomodoro&rdquo;, and how to ask questions. also it makes sure you understand how the web works and the meaning of some words like the Internet, HTTP, Browser, Frontend,
-Website, Webpage&hellip;</p>
-<h2 id="html">HTML</h2>
-<p>The course teaches you the basics of HTML, the skeleton for every web page, and covers some tags
-HTML, head, title, body, img, links&hellip;
-And at the end of this section, there is a project to build a website for cooking recipes.</p>
-<h2 id="css">CSS</h2>
-<p>After learning HTML, now we can start with CSS, first how to add CSS, there are 3 different ways in the header, in the opening tag of the element, or a separate file, then you should understand the different types of selectors tag, class, id&hellip; And which selector is stronger than the other.
-To help you understand why CSS is rendered this way, you will learn about the box model, block, and inline
-elements, margin, padding, border&hellip; also developer tools of the browser are great to help you.</p>
-<p>For a more advanced topic, you learn about the flexbox, which will help you position the elements, and
-create a nice-looking website. with some exercises to practice the topic.</p>
-<h2 id="javascript">Javascript</h2>
-<p>When talking about modern websites, the topic is always about javascript, but before making our hands dirty
-and using javascript to manipulate the Dom (&ldquo;after parsing HTML in a tree this tree is called the DOM&rdquo;), we should learn the basics of javascript, numbers, strings, arrays&hellip; then with the js, we can make some great projects, a Tic Tac Toe, Etch-A-Sketch, and the last project was a calculator.</p>
-<p>The course shows you also some handy ways to work with arrays, like map, filter, sort, reduce(fold)&hellip;</p>
-<h2 id="some-secondary-topics">Some Secondary Topics&hellip;</h2>
-<p>The course teaches you also the basics of the command line, git, developer tools, and an introduction to understand the idea of backend and what is a framework.</p>
-<h2 id="finally">Finally&hellip;</h2>
-<p>I would say this course helped me to understand the basics of web development, although it was
-a big course, it is worth completing it. The course has a lot of articles to read, this helped me because I was not a friend with reading articles and books.</p>
-]]></content>
-        </item>
-        
-        <item>
-            <title>folderOrganizer</title>
-            <link>/posts/2021/12/folderorganizer/</link>
-            <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
-            
-            <guid>/posts/2021/12/folderorganizer/</guid>
-            <description>What is folder Organizer The folder Organizer is a simple program built with C and some bash commands, by executing it inside a directory it will group the files sharing the same extension together in sub-directories.
+    </item>
+    
+    <item>
+      <title>folderOrganizer</title>
+      <link>/posts/folder_organizer/</link>
+      <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/folder_organizer/</guid>
+      <description>What is folder Organizer The folder Organizer is a simple program built with C and some bash commands, by executing it inside a directory it will group the files sharing the same extension together in sub-directories.
 THE CODE system Before we start, you should know what the system function is in C, the system function takes a command, im my case on &amp;ldquo;UBUNUTU&amp;rdquo; it&amp;rsquo;s a bash command, and execute it. For example system(&amp;ldquo;mkdir /home/example/games&amp;rdquo;), creates a games directory in /home/example.</description>
-            <content type="html"><![CDATA[<h2 id="what-is-folder-organizer">What is folder Organizer</h2>
-<p>The folder Organizer is a simple program built with C and some bash commands, by executing it inside a directory it will group the files sharing the same extension together in sub-directories.</p>
-<h2 id="the-code">THE CODE</h2>
-<h3 id="system">system</h3>
-<p>Before we start, you should know what the <code>system</code> function is in C, the system function takes a command, im my case on &ldquo;UBUNUTU&rdquo; it&rsquo;s a bash command, and execute it. For example system(&ldquo;mkdir /home/example/games&rdquo;), creates a games directory in /home/example.</p>
-<h3 id="generating-a-list-of-file-names">generating a list of file names</h3>
-<p>The first step is generating a file containing a list of file names, but before this some files may have space in their names, and we don&rsquo;t want this to make problems,
-so I found on stackoverflow a bash command to rename these files, and replace spaces with underscores &ldquo;_&quot;,<code>&quot;find . -type f -name \&quot;* *\&quot; -exec bash -c 'mv \&quot;$0\&quot; \&quot;${0// /_}\&quot;' {} \\;&quot;</code>. Now we can generate the file using the command <code>ls &gt; systemm</code>, ls will list all files in current directory and &gt; will redirect it to a file called systemm.</p>
-<p>note : all commands use a relative path to the directory of the program.</p>
-<h3 id="one-more-problem-before-moving-files">One more problem before moving files</h3>
-<p>A directory may contain  subdirecories, so our file may contains name of other directories, so with the command <code>[-d name]</code> we can check for directories, this command returns 0 if the current name represents a directory, and 1 for files.</p>
-<p>Another issues is that some files may have special characters, like &ldquo;(&quot;, &ldquo;)&rdquo; , &ldquo;,&rdquo; etc&hellip;
-and when executing a command like <code>mv</code> on these files we should use <code>mv ex\,ample</code>
-istead of <code>mv ex,ample</code>, so I created a simple function to add \ before these special characters to all filenames in the generated file.</p>
-<h3 id="getting-extensions">Getting extensions</h3>
-<p>The last thing before we start is defining a function to get the extension of a file,
-for this i found a function on internet that takes a filename and returns it&rsquo;s extension
-`char * extension(char *filename)</p>
-<h3 id="organizing-and-moving-files">organizing and moving files</h3>
-<p>Now we can start moving files, we can open the file systemm containing the list of filenames using <code>fopen</code>, and do the following steps :</p>
-<ol>
-<li>read a filename from the file using <code>fscanf</code>.</li>
-<li>check if it represents a directory.</li>
-<li>if not execute the function <code>slash_before_special_characters</code> on the file.</li>
-<li>get the extension of the file.</li>
-<li>check if the extension of file is not empty (some files has no extensions)</li>
-<li>if it&rsquo;s not empty then move the file to a sufolder with the name of this extension, create this folder if it didn&rsquo;t exist. We can check for existence using ls.</li>
-<li>if the file name is &ldquo;systemm&rdquo; or &ldquo;organize&rdquo; don&rsquo;t do anything, we don&rsquo;t want to move the file containing the list of file names and the program itself. It&rsquo;s safe to put this step in an else because these files has no extensions.</li>
-<li>for other files without extensions move them to a folder called &ldquo;no_ext&rdquo;</li>
-<li>repeat all steps until you finish.</li>
-</ol>
-<h2 id="finally">Finally&hellip;</h2>
-<p>I hope that I explained clearly how my code works.</p>
-<h2 id="wajdi18-dec-2021">wajdi,18 Dec 2021</h2>
-]]></content>
-        </item>
-        
-        <item>
-            <title>Programming Languages Part A</title>
-            <link>/posts/2021/12/programming-languages-part-a/</link>
-            <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
-            
-            <guid>/posts/2021/12/programming-languages-part-a/</guid>
-            <description>Introduction About the blog Hi there, in this blog I will talk about a course called &amp;ldquo;Programming Languages Part A&amp;rdquo;, the course has the purpose of teaching you the most relevant ideas of functional programming, we will use a language called &amp;ldquo;SML&amp;rdquo;, it&amp;rsquo;s a very simple language and will let us focus on the concepts of functional programming. But I won&amp;rsquo;t talk about everything in the course and every topic that the course covers, I will share with you the parts that are the most important and specific to functional programming.</description>
-            <content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
-<h3 id="about-the-blog">About the blog</h3>
-<p>Hi there, in this blog I will talk about a course called &ldquo;Programming Languages Part A&rdquo;,
-the course has the purpose of teaching you the most relevant ideas of functional programming, we will use a language called &ldquo;SML&rdquo;, it&rsquo;s a very simple language and will let us focus on the concepts of functional programming. But I won&rsquo;t talk about everything in the course and every topic that the course covers, I will share with you the parts that are the most important and specific to functional programming.</p>
-<h3 id="about-the-course">About the course</h3>
-<p>As the name tells this course has 2 other parts &ldquo;B&rdquo; and &ldquo;c&rdquo;, the main idea of the course is simply<br>
-not learning new programming languages but learning some important programming concepts.
-This course is available for free on Coursera.</p>
-<h2 id="the-course-briefly">The Course briefly</h2>
-<p>This course has 5 weeks, or maybe 4 because the first one is a simple introduction with optional fake homework. In the following sections, I will talk about the important ideas in each week.</p>
-<h3 id="the-second-week">The second week</h3>
-<h4 id="defining-expressions">Defining expressions</h4>
-<p>First, we&rsquo;ll start talking about ML expressions and variable-bindings, when we want to define an expression in any programming language we have to ask 3 fundamental questions :</p>
-<ol>
-<li>what is the syntax?</li>
-<li>what are the type checking rules?</li>
-<li>what is the evaluation of this expression?</li>
-</ol>
-<p>for example the adding expression :</p>
-<ol>
-<li>syntax: <code>e1 + e2</code>.</li>
-<li>type check: e1 and e2 should both be expressions that have an integer type or it will not type check.</li>
-<li>evaluation: evaluates e1 to v1 and e2 to v2 then returns the sum of v1 and v2.</li>
-</ol>
-<h4 id="no-mutation">no mutation</h4>
-<p>In SML the variables are not mutable, there is a way to define mutable variables using records but all other variables are not. With this approach, we don&rsquo;t have to worry about mutations
-which can cause a lot of problems especially when passing arguments and returning from functions.</p>
-<h4 id="recursion-everywhere">Recursion everywhere</h4>
-<p>In imperative programming everyone use <code>for</code> and <code>while</code> loops, but this is not the case for functional programming
-where you have to use recursion and only recursion and the reason is the lack of mutation. I will put a simple example of adding all the elements of a list.
-<code>fun add ls = if null ls then 0 else hd ls + add tl ls</code>  the <code>hd</code> function is function that returns the first element of a list, the <code>tl</code> returns the list without first element and <code>null ls</code> return true if the list is empty. It was very funny to work with this type of recursion a style that you will never see in imperative programming.</p>
-<h4 id="local-bindings">local bindings</h4>
-<p>Another feature that I find very important is the <code>let</code> expression which let us define local variables which are only available in the body of the let expression <code>let val x = 1 in x + 1 end </code>.</p>
-<h3 id="the-third-week">The third week</h3>
-<h4 id="syntactic-sugar">Syntactic sugar</h4>
-<p>The first time I heard of this expression was in this course, all programming languages do a lot of syntactic sugars and we don&rsquo;t notice this, in SML there is a type called records that could be defined like this
-<code>val rec ={a=1,b=2}</code> and you can access an item by using <code>#a rec</code>, and it seems that there is another type called tuple
-<code>val tup = (1,2)</code> and you can access an item by using <code>#1</code> or <code>#2</code> but the truth is that this tuple is a record like this <code>val tup = {1=1,2=2}</code> but the syntax is so ugly so the programmers of the language decided to implement tuples as syntactic sugar.</p>
-<h4 id="compound-types">Compound Types</h4>
-<p>Compound types are types that have other types in their definition and we have 3 different types of them :</p>
-<ol>
-<li>&ldquo;Each of&rdquo;: A compound type that contains each of values of types t1 and t2 and &hellip; like records and tuples.</li>
-<li>&ldquo;One of&rdquo;: A compound type that contains one of the values of types t1 or t2 or &hellip;</li>
-<li>&ldquo;Self-reference&rdquo;: A compound type that can refer to itself in its definition for example list of integers is an
-Integer with another list.</li>
-</ol>
-<h4 id="datatypes">Datatypes</h4>
-<p>In SML you can define your own &ldquo;One of&rdquo; datatype by using <code>datatype card = Number of int |  Diamond | ... </code>
-and what is exciting about these data types is that they could be recursive by definition.</p>
-<h4 id="pattern-matching">Pattern matching</h4>
-<p>When I first see the pattern matching I was impressed, and I thought that why not just every programming language has this idea. A pattern is like <code>[]</code> that matches an empty list and <code>x::xs</code> x matched the first element of a list and xs is the part of the list without the head. If we implement the example above of adding elements in the list it will be like: <code>fun add ls = case ls of [] =&gt; 0 | x::xs =&gt; x + add xs </code> you see no need to if-else no need to hd tl null a simple and beautiful syntax, and it becomes really helpful with datatypes that we talk about above for example
-<code>fun example c = case c of  Number x =&gt; x+1 | Diamond =&gt; ...</code>.</p>
-<h4 id="tail-recursion">Tail recursion</h4>
-<p>When we talk about recursive functions we talk about the stack, every time we call a function we will push it to the part of the memory called stack, so sometimes if a recursive function has a lot of calls we will run out of space, but with tail recursion, we don&rsquo;t have to worry about this.</p>
-<p><code>example n = n*example n-1</code> and <code>examp n = examp n-1</code> The difference between these two examples is that in the first one after calling the function <code>example n-1</code> we have to multiply the result by n, while in the second example the function <code>example n</code> return the same result as <code>example n-1</code> and this is a tail case, we don&rsquo;t have to do any calculation after calling <code>example n-1</code>, so when we call it we can remove <code>example n</code> from the stack because it has no more calculation, the SML language can detect the tail recursion case and this is very elegant.</p>
-<h3 id="the-4th-week">The 4th week</h3>
-<p>The main ideas of this week are closures, passing functions to other functions, and returning functions.</p>
-<h4 id="what-is-a-closure">What is a closure</h4>
-<p>A closure is a function with the environment where this function is defined for example
-<code>val x = 2 ; fun double y = y*x </code>  in the function double the value of x is always 2 event when we pass the function
-to other functions, so we don&rsquo;t just pass the function we always pass its environment.</p>
-<h4 id="map-function">map function</h4>
-<p>One of the most popular functions in functional programming is the map function, the map function takes another function f and a list l and returns the list of {f(x)} where x is an element of l.</p>
-<h4 id="anonymous-functions-and-syntactic-sugar">Anonymous functions and syntactic sugar</h4>
-<p>SML lets us define anonymous functions, this is very useful when we want to pass a function as an argument, and we don&rsquo;t want to use it anywhere else. for example, we have a function <code>fun example f = ....</code> that takes another function.
-So while calling it we can use <code>example (fn x=&gt; x*2)</code>.</p>
-<p>Also all funtions are syntactic sugar of anonymus functions <code>fun f x = x*2</code> is syntactic sugar of
-<code>val f = fn x =&gt; x*2</code>.</p>
-<h4 id="filter-function">filter function</h4>
-<p>As the name tells, the filter function takes a function f and a list l and returns a list of elements of l that evaluates to true with f(x). note: the function f should return always a bool.</p>
-<h4 id="fold-function">fold function</h4>
-<p>the function fold takes 3 arguments a function f an accumulator acc and a list l, it will apply the function f on every element of l and every call will affect the accumulator, at the end, the function will return the accumulator.</p>
-<h4 id="currying">Currying</h4>
-<p>The common way to pass arguments to a function is using a tuple <code>fun example (x,y) = x*y</code>, but with currying, we pass the arguments like this <code>fun example x = fn y =&gt; x*y</code>, the function example takes an argument x, and returns another function that takes y, and returns x*y <code>fun 8 10</code>. Some languages can use currying better than tuples and also currying allows us to do the partial application.</p>
-<h4 id="partial-application">Partial application</h4>
-<p>This idea is cool, if we want to define a function only_positive that takes a list and remove all negative numbers, well this looks like a filter, so we can define the function as following
-<code>val all_positive = filter (fn x =&gt; x &gt; 0)</code> now when we call the function with a list ls, it&rsquo;s like calling
-<code>filter (fn x=&gt; x &gt; 0) ls</code>. notice the filter function uses currying.</p>
-<h4 id="unecessary-wrapping">Unecessary wrapping</h4>
-<p>One of the simplest mistakes while programming is the unnecessary wrapping, for example,
-<code>fun all_positive ls = filter (fn x=&gt; x&gt;0) ls</code> the function here takes one argument a list ls and pass it directly to the function filter with the function that checks for positive numbers. But instead, we should define it as the example in the partial application section.</p>
-<h3 id="the-5th-week">The 5th week</h3>
-<p>In this week, the course talks about 2 main topics :</p>
-<ol>
-<li>
-<p>The first is about type inference and how a type checker determines the type of a variable for example <code>fun ex x = x*2</code> x should be an integer because we multiply it by 2.</p>
-</li>
-<li>
-<p>The second is about defining modules and restrictions on these modules using signatures.</p>
-</li>
-</ol>
-<h4 id="polymorphic-types">Polymorphic types</h4>
-<p>I should also mention the polymorphic types, for example, the following function that returns the length of a list, <code>fun ex ls = case ls of []=&gt;0 | _::xs=&gt; 1+ ex xs</code>, we don&rsquo;t do any calculation with list elements, notice I use _ here, so ls could be a list of anything, the type checker represent it as <code>'a list</code> alpha list.</p>
-<h2 id="finally">Finally&hellip;</h2>
-<p>Finally, I would say that this course taught me a lot of concepts, I encourage you to watch it, don&rsquo;t forget to do all your homework because it&rsquo;s the best way to practice new things, the course covers all the topics I mentioned in details and a lot of other topics.</p>
-<h6 id="wajdi-jomaa-9-dec-2021">Wajdi jomaa, 9 Dec 2021.</h6>
-]]></content>
-        </item>
-        
-        <item>
-            <title>CS50 review</title>
-            <link>/posts/2021/11/cs50-review/</link>
-            <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
-            
-            <guid>/posts/2021/11/cs50-review/</guid>
-            <description>Blog-CS50-Recap &amp;amp; Final Project Hi there, this blog is about what I learned in cs50 and my final project.
+    </item>
+    
+    <item>
+      <title>Programming Languages Part A</title>
+      <link>/posts/programming_languages/</link>
+      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/programming_languages/</guid>
+      <description>Introduction About the blog Hi there, in this blog I will talk about a course called &amp;ldquo;Programming Languages Part A&amp;rdquo;, the course has the purpose of teaching you the most relevant ideas of functional programming, we will use a language called &amp;ldquo;SML&amp;rdquo;, it&amp;rsquo;s a very simple language and will let us focus on the concepts of functional programming. But I won&amp;rsquo;t talk about everything in the course and every topic that the course covers, I will share with you the parts that are the most important and specific to functional programming.</description>
+    </item>
+    
+    <item>
+      <title>CS50 review</title>
+      <link>/posts/cs50/</link>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/cs50/</guid>
+      <description>Blog-CS50-Recap &amp;amp; Final Project Hi there, this blog is about what I learned in cs50 and my final project.
 What is CS50? Among all programming courses, maybe cs50 is the most popular, especially for beginners, in 10 weeks you will learn different topics from Scratch to C, python, SQL, frontend, and backend, you have to solve some challenging problems every week, and at the end of the course, you have to create a final project.</description>
-            <content type="html"><![CDATA[<h1 id="blog-cs50-recap--final-project">Blog-CS50-Recap &amp; Final Project</h1>
-<p>Hi there, this blog is about what I learned in cs50 and my final project.</p>
-<h2 id="what-is-cs50">What is CS50?</h2>
-<p>Among all programming courses, maybe cs50 is the most popular, especially for beginners, in 10 weeks you will learn different topics from Scratch to C, python,  SQL, frontend, and backend, you have to solve some challenging problems every week, and at the end of the course, you have to create a final project.</p>
-<h2 id="cs50-weeks-briefly">CS50 weeks briefly</h2>
-<ol>
-<li>
-<p>Week 0: Some computer science basics(Binary, Ascii, Images&hellip;) plus
-a simple introduction to the programming world with scratch</p>
-</li>
-<li>
-<p>Week 1 -&gt; week 5: You will learn C programming starting from the basics
-(data types, loops, pointers, files, algorithms&hellip;) then you will learn about data structures(linked lists, tree, hash tables, tries) and you have to implement some of them. The problem sets in those weeks are the most difficult in the course.</p>
-</li>
-<li>
-<p>Week 6: After learning the low-level C, you will learn python a high-level language, with simple syntax and will not let you worry about some problems like data allocation and segmentation faults, this week focus on some python topics like dictionaries and, teach you how to deal with CSV files which are possible in C but way harder.</p>
-</li>
-<li>
-<p>Week 7: After introducing CSV files in week 6, this week will show you a more efficient way to store data. You will learn the basics of relational databases, SQL, SQLite. you will enjoy solving the problems.</p>
-</li>
-<li>
-<p>Week 8: Discover the basics of the web(HTTP, TCP/IP&hellip;) and how to create a simple website with HTML, CSS, and javascript with some bootstrap.</p>
-</li>
-<li>
-<p>Week 9: You will learn how to build a fully functional website with python-flask, in addition to what you have learned in previous weeks(SQLite, HTML, Js&hellip;).</p>
-</li>
-</ol>
-<h2 id="cs50-final-project">CS50 final project</h2>
-<p>To start with the final project you have different choices :</p>
-<ol>
-<li>A command-line app.</li>
-<li>A website.</li>
-<li>A video game.</li>
-</ol>
-<p>First, I was very confused about what to do, I was planning to create a website but I have no ideas, I spent some time thinking then I decided to implement a typing speed website.</p>
-<h2 id="the-typing-speed-website">the typing speed website</h2>
-<p>Weekly, I spend some time using typing speed websites to increase my typing speed because I&rsquo;m learning to program and I want to be a fast typer, so when I was searching for some ideas I thought that maybe I could create my typing speed website.</p>
-<p>The website has different pages as follows :</p>
-<h3 id="register">Register</h3>
-<p>First, I created a page to register users or a register route, this idea was in the problem set of week 10, so this helped me.</p>
-<p><img src="https://user-images.githubusercontent.com/84613279/141426387-42d3c938-26f7-4daa-899b-3e2d0ca5fad9.png" alt="Screenshot at 2021-11-12 09-15-16"></p>
-<h3 id="login-and-logout">Login and Logout</h3>
-<p>Creating the login page wasn&rsquo;t a hard task also, you should just check if the user&rsquo;s information is in your database and if the password is correct, then put the user id in the Session.</p>
-<p>The logout was just a redirect to the login page, and the login page will clear the session for the user.</p>
-<p><img src="https://user-images.githubusercontent.com/84613279/141426425-9a9139e3-0799-4e8d-81e0-9a3439a12268.png" alt="Screenshot at 2021-11-12 09-15-01"></p>
-<h3 id="typing-speed-page">Typing speed page</h3>
-<p>The most challenging page was the typing route, I tried different things, then I decided the following :</p>
-<ol>
-<li>A paragraph is displayed with big font size in the middle of the screen.</li>
-<li>The user should type the paragraph in an input field. I tried to listen to the keyboard events, but I think the input field is better.</li>
-<li>you should press a start button before you start, and after pressing the button you have to wait for 5 seconds.</li>
-<li>when you start typing, if you type things correctly in the input field they will be colored blue, but if you got a typo the letter will be colored red, and you should fix it before you complete typing, the input field is cleared after typing each word.</li>
-<li>when you finish, the web app will calculate your typing speed, and display it.</li>
-</ol>
-<p><img src="https://user-images.githubusercontent.com/84613279/141426483-171289a8-2ce7-4234-a2a8-d087977a90fa.png" alt="Screenshot at 2021-11-12 09-15-34"></p>
-<h3 id="leaderbords-page">Leaderbords page</h3>
-<p>Finally, the leaderboards page will grab the top 10 fastest users from the database and display them.</p>
-<p><img src="https://user-images.githubusercontent.com/84613279/141426713-68ca03bf-5fa7-4752-8dcf-276f86429f61.png" alt="Screenshot at 2021-11-12 09-22-06"></p>
-<h2 id="what-i-have-learned-from-cs50-and-what-i-think-about-it">What I have learned from CS50 and what I think about it</h2>
-<p>I want to thank Harvard University, David Malan, and the rest of the cs50 team for making this great course available online and free. In this course, I&rsquo;ve learned the basics of programming and computer science, and what makes the course challenging are the problem sets, the majority of problems were somehow related to real-life problems, and were not easy to solve,  sometimes I would feel frustrated when I get stuck, or when I have a lot of errors in my code, especially when the error is a &ldquo;segmentation fault&rdquo;.</p>
-<p>But thank god after about 10 weeks of work, I watched all lectures and solved all the problems. Finally, I would say thanks to my teacher who helped me to complete the course.</p>
-<h2 id="date">Date</h2>
-<p>I completed this course in the summer of 2021, before starting my third year of computer science at the Lebanese university.</p>
-]]></content>
-        </item>
-        
-    </channel>
+    </item>
+    
+  </channel>
 </rss>

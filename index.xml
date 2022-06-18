@@ -1,63 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>wajdiJomaa</title>
+    <title>Wajdi Jomaa</title>
     <link>/</link>
-    <description>Recent content on wajdiJomaa</description>
+    <description>Recent content on Wajdi Jomaa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 20 Jan 2022 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 20 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Odin project foundation</title>
-      <link>/posts/2022/01/odin-project-foundation/</link>
+      <link>/posts/odinproject-foundation/</link>
       <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2022/01/odin-project-foundation/</guid>
+      <guid>/posts/odinproject-foundation/</guid>
       <description>Odin Project Foundation About the course Odin project Foundation is a completely free course, to learn the fundamentals of HTML, CSS, Javascript. For each topic, the course has different articles or youtube videos and sometimes some exercises and projects.
 The Introduction The course starts with some lessons about motivation, managing your time for example &amp;ldquo;Pomodoro&amp;rdquo;, and how to ask questions. also it makes sure you understand how the web works and the meaning of some words like the Internet, HTTP, Browser, Frontend, Website, Webpage&amp;hellip;</description>
     </item>
     
     <item>
       <title>folderOrganizer</title>
-      <link>/posts/2021/12/folderorganizer/</link>
+      <link>/posts/folder_organizer/</link>
       <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2021/12/folderorganizer/</guid>
+      <guid>/posts/folder_organizer/</guid>
       <description>What is folder Organizer The folder Organizer is a simple program built with C and some bash commands, by executing it inside a directory it will group the files sharing the same extension together in sub-directories.
 THE CODE system Before we start, you should know what the system function is in C, the system function takes a command, im my case on &amp;ldquo;UBUNUTU&amp;rdquo; it&amp;rsquo;s a bash command, and execute it. For example system(&amp;ldquo;mkdir /home/example/games&amp;rdquo;), creates a games directory in /home/example.</description>
     </item>
     
     <item>
       <title>Programming Languages Part A</title>
-      <link>/posts/2021/12/programming-languages-part-a/</link>
+      <link>/posts/programming_languages/</link>
       <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2021/12/programming-languages-part-a/</guid>
+      <guid>/posts/programming_languages/</guid>
       <description>Introduction About the blog Hi there, in this blog I will talk about a course called &amp;ldquo;Programming Languages Part A&amp;rdquo;, the course has the purpose of teaching you the most relevant ideas of functional programming, we will use a language called &amp;ldquo;SML&amp;rdquo;, it&amp;rsquo;s a very simple language and will let us focus on the concepts of functional programming. But I won&amp;rsquo;t talk about everything in the course and every topic that the course covers, I will share with you the parts that are the most important and specific to functional programming.</description>
     </item>
     
     <item>
       <title>CS50 review</title>
-      <link>/posts/2021/11/cs50-review/</link>
+      <link>/posts/cs50/</link>
       <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2021/11/cs50-review/</guid>
+      <guid>/posts/cs50/</guid>
       <description>Blog-CS50-Recap &amp;amp; Final Project Hi there, this blog is about what I learned in cs50 and my final project.
 What is CS50? Among all programming courses, maybe cs50 is the most popular, especially for beginners, in 10 weeks you will learn different topics from Scratch to C, python, SQL, frontend, and backend, you have to solve some challenging problems every week, and at the end of the course, you have to create a final project.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Hi there, I&amp;rsquo;m wajdi a computer science student at the Lebanese University, I have a basic knowledge about programming concepts and some programming languages and I try to learn more by enrolling in some online courses. </description>
     </item>
     
   </channel>
