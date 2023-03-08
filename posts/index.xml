@@ -6,7 +6,39 @@
     <description>Recent content in Posts on Wajdi Jomaa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decorator Pattern</title>
+      <link>/posts/designpatterns/decorator/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/designpatterns/decorator/</guid>
+      <description>Design Patterns If you are currently working on a big programming project, and you feel that your code is insufficient, not reusable, or not readable, or you have the pain to add new features, it&amp;rsquo;s probably the time to take a break and learn about design patterns.
+Design patterns will help you to write your code in a scalable and readable way and will make your software better, sometimes a small design choice in your code would save you hours or days of work.</description>
+    </item>
+    
+    <item>
+      <title>Observer Pattern</title>
+      <link>/posts/designpatterns/observer/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/designpatterns/observer/</guid>
+      <description>Observer design pattern Scenario We have a weather for mobile and desktop that displays weather info, but we have a problem that our application is displaying only static data, so we want to connect our application to an API to have up-to-date data,
+for this, we have a weather API that grabs different information about the weather
+To connect the API to our application in a way that each time the data changes the UI should be updated on both mobile and desktop</description>
+    </item>
+    
+    <item>
+      <title>Strategy Pattern</title>
+      <link>/posts/designpatterns/strategy/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/designpatterns/strategy/</guid>
+      <description>Strategy Design pattern Scenario GameCo is a company that is planning to build the next-generation fighting game, they need your help to design the application, each character should be able to choose between any style of weapon, and should be able to change the weapon type at runtime
+You have the following code:
+abstract class fighter(){ private String name; private int health; /// you have to add a weapon to each the fighter class  /// seters and geters  } all characters will extend the fighter class but you need to find a way to add a weapon to each character let&amp;rsquo;s say that we have 2 types of weapons a rifle and a shotgun each one has a method of fire and speed</description>
+    </item>
+    
     <item>
       <title>Odin project foundation</title>
       <link>/posts/odinproject-foundation/</link>
